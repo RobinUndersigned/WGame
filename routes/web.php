@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/drinks', 'DrinkController@index');
 
 Route::get('/drink/{id}', 'DrinkController@showOne');
+Route::get();
 
 
 
